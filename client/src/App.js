@@ -9,9 +9,8 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/courses" element={<Home />} exact />
-      </Routes>
+      <Navbar />
+      <Routes>{/* <Route path="courses" element="{<Home />}" /> */}</Routes>
     </div>
   );
 }
