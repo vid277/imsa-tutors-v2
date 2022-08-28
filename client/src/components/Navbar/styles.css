@@ -20,7 +20,6 @@
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  min-height: 66px;
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -131,13 +130,12 @@
   }
 }
 
+@media (max-width: 770px) {
+  .navbar_inner_wrapper {
+    padding: 15px 30px;
+    padding-bottom: 15px !important;
+  }
+}
 .navbar-toggler {
   margin-top: 0;
-}
-
-@media (max-width: 770px) {
-  #progressBar,
-  #progressBarContainer {
-    display: none;
-  }
 }

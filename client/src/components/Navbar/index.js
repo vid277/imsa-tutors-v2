@@ -24,34 +24,13 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link two-words" href="/#aboutMeDiv">
-                About Me
+              <a className="nav-link two-words" href="/courses">
+                Courses
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#skills">
-                Skills
-              </a>
-            </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/#hobbies">
-                Hobbies
-              </a>
-            </li> */}
-            <li className="nav-item">
-              <a className="nav-link" href="/projects">
-                Projects
-              </a>
-            </li>
-            {/* <li className="nav-item active">
-              <a className="nav-link two-words" href="/currentevents">
-                Current Events
-              </a>
-            </li> */}
-            {}
-            <li className="nav-item">
-              <a className="nav-link" href="/resume">
-                Resume
+              <a className="nav-link" href="/help">
+                Help
               </a>
             </li>
           </ul>
